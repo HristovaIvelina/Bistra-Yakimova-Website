@@ -1,0 +1,199 @@
+html, body, nav, ul, li, a, div, img, span, h1, h2, p
+{
+	padding:0;
+	margin:0;
+}
+
+img
+{
+	border: 0;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+html
+{
+	font: 10px 'Georgia', 'Verdana', sans-serif;
+	color: #000;
+	background: url('../images/main-background.jpg') no-repeat fixed center 0 #272218;
+}
+
+#wrapper {
+	width: 600 px;
+}
+
+
+
+/**Main Header*/
+header {
+	background-color: rgba(36, 17, 28, 0.41);
+	border-bottom: 2px solid #a56c98;
+	min-height:0;
+	_zoom: 1;
+}
+
+header:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+	#logoBibi {
+		float: left;
+		padding-left: 55px;
+		padding-top: 15px;
+	}
+	
+	#main-navigation {
+		list-style-type:none;
+		text-align:center;
+	}
+	
+		#main-navigation li {
+			display:inline-block;
+			padding-top: 23px;
+			margin-bottom: 10px;
+		}
+		
+		#main-navigation li.current {
+			background-color: #FAE4E4;
+			border-bottom-right-radius: 10px;
+			border-bottom-left-radius: 10px;
+		}
+		
+			#main-navigation li a {
+				color: #fff;
+				font-family: 'Verdana', sans-serif;
+				font-size: 1.8rem;
+				padding-left: 27px;
+				padding-right: 27px;
+				line-height:100px;
+
+			}
+			
+			#main-navigation li a:hover
+			{
+				color: #ddd;
+				text-decoration: underline;
+				font-style: italic;
+				
+			}
+
+			#main-navigation li.current a
+			{
+				color:#3a1323;
+				font-weight: bold;
+			}
+
+			#main-navigation li.current a:hover
+			{
+				color: #fff;
+				text-decoration: none;
+				font-style: normal;
+				
+			}
+
+/**Body*/			
+#wrapper{
+min-height:0;
+	_zoom: 1;
+}
+
+#wrapper:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+#main-text {
+	width: 1000px;
+	margin-top: 20px;
+	margin-left: 80px;
+	padding: 10px;
+	border-radius: 15px;
+	background-color: rgba(36, 17, 28, 0.5);
+	float: left;
+	min-height:0;
+	_zoom: 1;
+}
+
+#section_header img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 30px;
+}
+
+#main-text:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+#section_header{
+	margin: 5px auto;
+}
+
+#section_content{
+	min-height:0;
+	_zoom: 1;
+}
+
+#section_content:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+#Bibi_main_photo {
+float:left;
+margin: 20px;
+
+}
+#content-text{
+	color: #fff;
+	font-size: 1.4rem;
+	padding: 20px;
+}
+
+#content-text p {
+	margin-bottom: 18px;
+	text-align:justify;
+	text-indent:50px;
+	line-height:140%;
+}
+
+/**Aside*/
+#aside {
+	padding: 10px;
+	border-radius: 15px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 90px;
+}
+
+/**Footer*/
+footer{
+	background-color: rgba(36, 17, 28, 0.5);
+	border-top: 2px solid #a56c98;
+	height: 100px;
+	color: #fff;
+	margin-top: 50px;
+	min-height:0;
+	_zoom: 1;
+}
+
+footer:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+footer .secondary {
+	float: right;
+	font-size: 1.2rem;
+	color:#ddd;
+	margin: 20px;
+}
